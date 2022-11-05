@@ -29,23 +29,6 @@ namespace WebsiteDownloader
 
         }
 
-        private void crEaTiiOn_Ultimate_GradientButton1_Click(object sender, EventArgs e)
-        {
-            using (var fbd = new FolderBrowserDialog())
-            {
-                DialogResult result = fbd.ShowDialog();
-
-                if (result == DialogResult.OK && !string.IsNullOrWhiteSpace(fbd.SelectedPath))
-                {
-                    //  string[] files = Directory.GetFiles(fbd.SelectedPath);
-                    //   string[] directories = Directory.GetDirectories(fbd.SelectedPath);
-
-                    outputFolder.Text = fbd.SelectedPath;
-                    Downloadbtn.Enabled = true;
-                }
-            }
-        }
-
         private void crEaTiiOn_Ultimate_GradientButton2_Click(object sender, EventArgs e)
         {
             if (string.IsNullOrEmpty(URLtextbox.Text))
@@ -131,6 +114,23 @@ namespace WebsiteDownloader
         {
             UpdateForm F3 = new UpdateForm(); // Instantiate a Form3 object.
             F3.Show(); // Show Form3 and
+        }
+
+        private void ChoseOutputbtn_Click(object sender, EventArgs e)
+        {
+            using (var fbd = new FolderBrowserDialog())
+            {
+                DialogResult result = fbd.ShowDialog();
+
+                if (result == DialogResult.OK && !string.IsNullOrWhiteSpace(fbd.SelectedPath))
+                {
+                    //  string[] files = Directory.GetFiles(fbd.SelectedPath);
+                    //   string[] directories = Directory.GetDirectories(fbd.SelectedPath);
+
+                    outputFolder.Text = fbd.SelectedPath;
+                    Downloadbtn.Enabled = true;
+                }
+            }
         }
     }
 }

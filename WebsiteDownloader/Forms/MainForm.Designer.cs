@@ -161,6 +161,7 @@ namespace WebsiteDownloader
             this.ChoseOutputbtn.TextColor = System.Drawing.Color.White;
             this.ChoseOutputbtn.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.ChoseOutputbtn.UseVisualStyleBackColor = false;
+            this.ChoseOutputbtn.Click += new System.EventHandler(this.ChoseOutputbtn_Click);
             // 
             // Downloadbtn
             // 
