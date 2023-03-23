@@ -1,19 +1,13 @@
 ﻿using System;
-using System.Threading;
 using System.IO;
 using System.Net;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Diagnostics;
 using System.Windows.Forms;
 
 namespace WebSrcDL_CBH.Classes
 {
     class Network
     {
-        static string Version = "1.0";
+        static string Version = "1.1.0";
         public static bool Beta = false;
         public static bool NeedsUpdate = false;
         public static string MainURL = "https://eternalmodz.github.io/New-UltimateCraft-Website/";

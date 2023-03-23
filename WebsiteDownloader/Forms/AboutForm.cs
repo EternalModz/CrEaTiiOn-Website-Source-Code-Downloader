@@ -1,16 +1,10 @@
-﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using CBH_WebDLTool;
+using System;
 using System.Windows.Forms;
 
 namespace WebsiteDownloader
 {
-    public partial class AboutForm : Form
+    public partial class AboutForm : ThemeForm
     {
         public AboutForm()
         {
@@ -31,9 +25,8 @@ namespace WebsiteDownloader
 
         private void crEaTiiOn_Ultimate_GradientButton2_Click(object sender, EventArgs e)
         {
-            string message = "Hey! The Discord server is not ready yet. Check for updates to see if this program has a newer version.";
-            string title = "Looks like the server has not been made yet!";
-            MessageBox.Show(message, title);
+            // Launch browser to Discord...
+            System.Diagnostics.Process.Start("https://discord.gg/kxUQFEUMUa");
         }
     }
 }

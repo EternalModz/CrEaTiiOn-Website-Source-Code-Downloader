@@ -1,8 +1,8 @@
 ﻿using System;
 using System.Diagnostics;
-using System.Threading;
 using System.IO;
 using System.Net;
+using System.Threading;
 using System.Windows.Forms;
 
 namespace WebSrcDL_CBH.Classes
@@ -20,7 +20,7 @@ namespace WebSrcDL_CBH.Classes
                 Thread.CurrentThread.IsBackground = true;
                 fb.ShowDialog();
             });
-                string DLPath = Environment.GetFolderPath(Environment.SpecialFolder.LocalApplicationData) + "\\Temp\\";
+            string DLPath = Environment.GetFolderPath(Environment.SpecialFolder.LocalApplicationData) + "\\Temp\\";
             try
             {
                 Console.WriteLine(DLPath + "WebSrcDL-CBH");
@@ -34,7 +34,7 @@ namespace WebSrcDL_CBH.Classes
                             Process.Start(DLPath + Path.GetFileName(Classes.Network.MainURL + BetaUpdateURL));
                             Application.Exit();
                         }
-                        catch(WebException ex)
+                        catch (WebException ex)
                         {
                             Console.WriteLine(ex.Message);
                             DownloadFile(DLPath + Path.GetFileName(Classes.Network.BackURL + BetaUpdateURL), Classes.Network.BackURL + BetaUpdateURL);

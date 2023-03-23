@@ -47,7 +47,7 @@
             this.label3.AutoSize = true;
             this.label3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(20)))), ((int)(((byte)(20)))), ((int)(((byte)(20)))));
             this.label3.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.label3.Location = new System.Drawing.Point(215, 30);
+            this.label3.Location = new System.Drawing.Point(235, 30);
             this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(239, 60);
@@ -59,7 +59,7 @@
             // pictureBox1
             // 
             this.pictureBox1.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
+            this.pictureBox1.Image = global::WebSrcDL_CBH.Properties.Resources.WDL_CBH_Logo;
             this.pictureBox1.Location = new System.Drawing.Point(16, 54);
             this.pictureBox1.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.pictureBox1.Name = "pictureBox1";
@@ -106,12 +106,12 @@
             this.label2.AutoSize = true;
             this.label2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(20)))), ((int)(((byte)(20)))), ((int)(((byte)(20)))));
             this.label2.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.label2.Location = new System.Drawing.Point(66, 30);
+            this.label2.Location = new System.Drawing.Point(86, 30);
             this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(121, 30);
+            this.label2.Size = new System.Drawing.Size(124, 30);
             this.label2.TabIndex = 8;
-            this.label2.Text = "Program version: 1.0\r\nLast updated: 11/5/22";
+            this.label2.Text = "Program version: 1.1.0\r\nLast updated: 3/21/23";
             // 
             // Downloadbtn
             // 
@@ -194,7 +194,7 @@
             this.crEaTiiOn_Ultimate_GradientButton2.Name = "crEaTiiOn_Ultimate_GradientButton2";
             this.crEaTiiOn_Ultimate_GradientButton2.Size = new System.Drawing.Size(245, 129);
             this.crEaTiiOn_Ultimate_GradientButton2.TabIndex = 13;
-            this.crEaTiiOn_Ultimate_GradientButton2.Text = "Discord Server\r\n(Coming soon)";
+            this.crEaTiiOn_Ultimate_GradientButton2.Text = "Discord Server";
             this.crEaTiiOn_Ultimate_GradientButton2.TextColor = System.Drawing.Color.White;
             this.crEaTiiOn_Ultimate_GradientButton2.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.crEaTiiOn_Ultimate_GradientButton2.UseVisualStyleBackColor = false;

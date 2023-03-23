@@ -40,3 +40,6 @@ C:\Users\EternalModz\Desktop\Development\CBH Website Souce Code Downloader\Websi
 C:\Users\EternalModz\Desktop\Development\CBH Website Souce Code Downloader\WebsiteDownloader\obj\Debug\WebsiteDownloader.csproj.CoreCompileInputs.cache
 C:\Users\EternalModz\Desktop\Development\CBH Website Souce Code Downloader\WebsiteDownloader\obj\Debug\CrEaTiiOn Website Downloader.exe
 C:\Users\EternalModz\Desktop\Development\CBH Website Souce Code Downloader\WebsiteDownloader\obj\Debug\CrEaTiiOn Website Downloader.pdb
+C:\Users\EternalModz\Desktop\Development\CBH Website Souce Code Downloader\WebsiteDownloader\bin\Debug\DarkNet.dll
+C:\Users\EternalModz\Desktop\Development\CBH Website Souce Code Downloader\WebsiteDownloader\bin\Debug\DarkNet.xml
+C:\Users\EternalModz\Desktop\Development\CBH Website Souce Code Downloader\WebsiteDownloader\obj\Debug\WebsiteDownloader.csproj.CopyComplete
